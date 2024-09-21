@@ -5,10 +5,15 @@ A web application that allows users to manage student grades, add students and a
 
 # Features
 Add Students and Assignments: Dynamically add rows for new students and columns for assignments.
+
 Editable Grades:Edit grades directly in the table.
+
 Grade Averages: Automatically calculates and displays average grades for each student.
+
 Unsubmitted Count:Tracks the number of unsubmitted assignments.
+
 Save and Restore: Save the current table state and restore it later.
+
 Grade Format Toggle: Toggle between percentage, letter grades, and 4.0 GPA scale.
 
 # How to Use

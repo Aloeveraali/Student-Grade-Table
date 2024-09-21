@@ -31,5 +31,7 @@ Toggle Grade Format: Click the "Average" column header to toggle between percent
 
 ## Files
 assignment3.html: HTML structure for the grade table interface.
+
 assignment3.css: CSS file for styling the table and controls.
+
 assignment3.js: JavaScript file containing the game logic, including grade calculations, event listeners, and saving/restoring functionality.

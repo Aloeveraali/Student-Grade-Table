@@ -4,31 +4,31 @@
 A web application that allows users to manage student grades, add students and assignments, and display averages. 
 
 # Features
-# Add Students and Assignments:
+Add Students and Assignments:
 Dynamically add rows for new students and columns for assignments.
-# Editable Grades:
+Editable Grades:
 Edit grades directly in the table.
-# Grade Averages: 
+Grade Averages: 
 Automatically calculates and displays average grades for each student.
-# Unsubmitted Count:
+Unsubmitted Count:
 Tracks the number of unsubmitted assignments.
-# Save and Restore: 
+Save and Restore: 
 Save the current table state and restore it later.
-# Grade Format Toggle: 
+Grade Format Toggle: 
 Toggle between percentage, letter grades, and 4.0 GPA scale.
 
 # How to Use
-# Add Student: 
+Add Student: 
 Click the "Add Student" button to add a new student with a unique name and ID.
-# Add Assignment: 
+Add Assignment: 
 Click the "Add Assignment" button to add a new column for an additional assignment.
-# Edit Grades:
+Edit Grades:
 Click on any grade cell to edit it. The average will update automatically.
-# Save Table: 
+Save Table: 
 Click "Save Table State" to store the current state of the table in localStorage.
-# Restore Table: 
+Restore Table: 
 Click "Restore Table State" to retrieve the saved table from localStorage.
-# Toggle Grade Format: 
+Toggle Grade Format: 
 Click the "Average" column header to toggle between percentage, letter grades, and 4.0 GPA scale.
 
 ## Files

@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+
+td[contenteditable="true"] {
+  text-align: right;
+}
+
+td:not([contenteditable="true"]) {
+  text-align: left;
+}
+
+.low-grade {
+  background-color: red;
+  color: white;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#unsubmittedCount {
+  margin-top: 20px;
+}
+
+#gradesTable td:first-child,
+#gradesTable td:nth-child(2) {
+  text-align: left;
+}
+
+/* Center-align the text in the header cells */
+#gradesTable th {
+  text-align: center;
+}
